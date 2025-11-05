@@ -1,7 +1,7 @@
 /* ----- fondo general: rojo sólido ----- */
 body {
   margin: 0;
-  background: red; /* fondo rojo sólido */
+  background: red;
   font-family: Arial, sans-serif;
 }
 
@@ -9,21 +9,21 @@ body {
 .mosaico {
   margin: 40px auto;
   width: 90%;
-  background-color: #003366;   /* azul del recuadro */
-  border: 6px solid #FFD700;   /* borde dorado */
+  background-color: #003366;
+  border: 6px solid #FFD700;
   position: relative;
-  padding: 30px 40px 80px 40px; /* deja espacio abajo para el escudo */
+  padding: 30px 40px 80px 40px;
   box-shadow: 0 0 15px rgba(0,0,0,0.5);
-  overflow: visible; /* importante para que el escudo no se corte */
+  overflow: visible;
 }
 
-/* ----- TÍTULO dentro del recuadro azul ----- */
+/* ----- TÍTULO ----- */
 .titulo {
   text-align: center;
   color: white;
   margin-bottom: 30px;
+  position: relative;
   z-index: 2;
-  position: relative; /* sobre el fondo */
 }
 
 .titulo h1 {
@@ -35,7 +35,7 @@ body {
   text-shadow: 2px 2px 4px rgba(0,0,0,0.45);
 }
 
-/* ----- Escudo (esquina inferior derecha del recuadro) ----- */
+/* ----- Escudo ----- */
 .escudo {
   position: absolute;
   right: 60px;
@@ -48,36 +48,38 @@ body {
   display: block;
 }
 
-/* ----- Contenedor y separación de rombos ----- */
+/* ----- Contenedor de rombos ----- */
 .contenedor-rombos {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 45px; /* separación entre filas (tu valor preferido) */
+  gap: 45px;
   position: relative;
-  z-index: 2; /* por encima del fondo */
+  z-index: 2;
 }
 
-/* Cada fila */
+/* Cada fila centrada */
 .fila {
   display: flex;
   justify-content: center;
-  gap: 45px; /* separación entre rombos dentro de la fila */
+  gap: 45px;
+  width: 100%;
+  position: relative;
 }
 
-/* Alineación en "V" (ajusta los desplazamientos si quieres moverlas) */
-.fila2 { margin-left: 40px; }
-.fila3 { margin-left: 80px; }
-.fila4 { margin-left: 120px; }
-.fila5 { margin-left: 160px; }
+/* Desplazamientos equilibrados (en lugar de margin-left) */
+.fila1 { transform: translateX(0); }
+.fila2 { transform: translateX(25px); }
+.fila3 { transform: translateX(50px); }
+.fila4 { transform: translateX(75px); }
+.fila5 { transform: translateX(50px); }
 
 /* ----- Rombo ----- */
-/* ----- Rombo (ahora con fondo blanco) ----- */
 .rombo {
   width: 90px;
   height: 90px;
-  background-color: white;      /* fondo blanco */
-  border: 8px solid #FFD700;    /* borde dorado */
+  background-color: white;
+  border: 8px solid #FFD700;
   transform: rotate(45deg);
   display: flex;
   align-items: center;
@@ -86,12 +88,10 @@ body {
   transition: transform 0.25s ease;
 }
 
-/* Hover opcional */
 .rombo:hover {
   transform: rotate(45deg) scale(1.05);
 }
 
-/* Imagen dentro del rombo */
 .rombo img {
   width: 100%;
   height: 100%;
