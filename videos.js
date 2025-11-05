@@ -2,11 +2,14 @@ document.addEventListener("DOMContentLoaded", function() {
   const rombos = document.querySelectorAll(".rombo");
   const rombo3 = rombos[2]; // Daniela
   const rombo4 = rombos[3]; // Santiago
+  const rombo5 = rombos[5]; // Juan David
 
   // Rutas de tus videos (ajústalas a tus nombres reales)
   const videos = {
     daniela: "daniela.mp4",
-    santiago: "santiago.mp4"
+    santiago: "santiago.mp4",
+    juanDavid: "juandavid.mp4"  
+
   };
 
   // Función para abrir una ventana emergente con el video en pantalla completa
