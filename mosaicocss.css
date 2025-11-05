@@ -1,0 +1,102 @@
+/* ----- fondo general: rojo sólido ----- */
+body {
+  margin: 0;
+  background: red; /* fondo rojo sólido */
+  font-family: Arial, sans-serif;
+}
+
+/* ----- Marco principal (recuadro azul con borde dorado) ----- */
+.mosaico {
+  margin: 40px auto;
+  width: 90%;
+  background-color: #003366;   /* azul del recuadro */
+  border: 6px solid #FFD700;   /* borde dorado */
+  position: relative;
+  padding: 30px 40px 80px 40px; /* deja espacio abajo para el escudo */
+  box-shadow: 0 0 15px rgba(0,0,0,0.5);
+  overflow: visible; /* importante para que el escudo no se corte */
+}
+
+/* ----- TÍTULO dentro del recuadro azul ----- */
+.titulo {
+  text-align: center;
+  color: white;
+  margin-bottom: 30px;
+  z-index: 2;
+  position: relative; /* sobre el fondo */
+}
+
+.titulo h1 {
+  font-size: 34px;
+  letter-spacing: 2px;
+  margin: 0;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.45);
+}
+
+/* ----- Escudo (esquina inferior derecha del recuadro) ----- */
+.escudo {
+  position: absolute;
+  right: 60px;
+  bottom: 20px;
+  z-index: 2;
+}
+
+.escudo img {
+  width: 190px;
+  display: block;
+}
+
+/* ----- Contenedor y separación de rombos ----- */
+.contenedor-rombos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 45px; /* separación entre filas (tu valor preferido) */
+  position: relative;
+  z-index: 2; /* por encima del fondo */
+}
+
+/* Cada fila */
+.fila {
+  display: flex;
+  justify-content: center;
+  gap: 45px; /* separación entre rombos dentro de la fila */
+}
+
+/* Alineación en "V" (ajusta los desplazamientos si quieres moverlas) */
+.fila2 { margin-left: 40px; }
+.fila3 { margin-left: 80px; }
+.fila4 { margin-left: 120px; }
+.fila5 { margin-left: 160px; }
+
+/* ----- Rombo ----- */
+/* ----- Rombo (ahora con fondo blanco) ----- */
+.rombo {
+  width: 90px;
+  height: 90px;
+  background-color: white;      /* fondo blanco */
+  border: 8px solid #FFD700;    /* borde dorado */
+  transform: rotate(45deg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.3);
+  transition: transform 0.25s ease;
+}
+
+/* Hover opcional */
+.rombo:hover {
+  transform: rotate(45deg) scale(1.05);
+}
+
+/* Imagen dentro del rombo */
+.rombo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transform: rotate(-45deg);
+  border-radius: 8px;
+  display: block;
+}
