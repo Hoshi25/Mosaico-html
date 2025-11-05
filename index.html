@@ -4,37 +4,45 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>Mosaico UMNG</title>
-  <!-- Asegúrate que el nombre del CSS coincide exactamente -->
   <link rel="stylesheet" href="mosaicocss.css">
+  <script src="videos.js"></script>
+
 </head>
 <body>
-  <!-- Modal de video -->
-<div id="videoModal" class="modal">
-  <div class="modal-content">
-    <span class="cerrar">&times;</span>
-    <video id="videoPlayer" width="600" controls autoplay></video>
+  <!-- Modal para mostrar los videos -->
+  <div id="videoModal" class="modal">
+    <div class="modal-content">
+      <span class="cerrar">&times;</span>
+      <video id="videoPlayer" width="100%" controls autoplay></video>
+    </div>
   </div>
-</div>
 
   <div class="mosaico">
-    <!-- TÍTULO dentro del recuadro azul -->
     <div class="titulo">
       <h1>UNIVERSIDAD MILITAR NUEVA GRANADA</h1>
     </div>
 
-    <!-- CONTENEDOR DE ROMBOS (6,5,4,3,4) -->
     <div class="contenedor-rombos">
-      <!-- Fila 1: 6 rombos -->
+      <!-- Fila 1 -->
       <div class="fila fila1">
         <div class="rombo"></div>
         <div class="rombo"></div>
-        <div class="rombo"><img src="daniela.jpeg" alt="Imagen 3"></div>
-        <div class="rombo"><img src="santiago.jpeg" alt="Imagen 4"></div>
+
+        <!-- Rombo Daniela -->
+        <div class="rombo" id="rombo3">
+          <img src="daniela.jpeg" alt="Imagen 3">
+        </div>
+
+        <!-- Rombo Santiago -->
+        <div class="rombo" id="rombo4">
+          <img src="santiago.jpeg" alt="Imagen 4">
+        </div>
+
         <div class="rombo"></div>
         <div class="rombo"><img src="juandavid.jpeg" alt="Imagen 6"></div>
       </div>
 
-      <!-- Fila 2: 5 rombos -->
+      <!-- Fila 2 -->
       <div class="fila fila2">
         <div class="rombo"><img src="isabella.jpeg" alt="Imagen 7"></div>
         <div class="rombo"></div>
@@ -43,7 +51,7 @@
         <div class="rombo"><img src="emy.jpeg" alt="Imagen 11"></div>
       </div>
 
-      <!-- Fila 3: 4 rombos -->
+      <!-- Fila 3 -->
       <div class="fila fila3">
         <div class="rombo"></div>
         <div class="rombo"></div>
@@ -51,14 +59,14 @@
         <div class="rombo"></div>
       </div>
 
-      <!-- Fila 4: 3 rombos -->
+      <!-- Fila 4 -->
       <div class="fila fila4">
         <div class="rombo"></div>
         <div class="rombo"></div>
         <div class="rombo"></div>
       </div>
 
-      <!-- Fila 5: 4 rombos -->
+      <!-- Fila 5 -->
       <div class="fila fila5">
         <div class="rombo"></div>
         <div class="rombo"></div>
@@ -67,11 +75,13 @@
       </div>
     </div>
 
-    <!-- ESCUDO (imagen) : reemplaza "escudo.png" por la ruta de tu archivo -->
+    <!-- Escudo -->
     <div class="escudo">
-      <!-- Descomenta y cambia la ruta cuando tengas la imagen -->
       <img src="Bandera_UMNG.jpg" alt="Escudo Universidad Militar Nueva Granada">
     </div>
   </div>
+
+  <!-- Conexión al script -->
+  <script src="script.js"></script>
 </body>
 </html>
