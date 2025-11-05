@@ -1,46 +1,42 @@
-/* ----- fondo general: rojo sólido ----- */
+/* Fondo general */
 body {
   margin: 0;
   background: red;
   font-family: Arial, sans-serif;
 }
 
-/* ----- Marco principal (recuadro azul con borde dorado) ----- */
+/* Marco azul */
 .mosaico {
   margin: 40px auto;
   width: 90%;
   background-color: #003366;
   border: 6px solid #FFD700;
   position: relative;
-  padding: 30px 40px 80px 40px;
+  padding: 30px 40px 100px 40px;
   box-shadow: 0 0 15px rgba(0,0,0,0.5);
-  overflow: visible;
 }
 
-/* ----- TÍTULO ----- */
+/* Título */
 .titulo {
   text-align: center;
   color: white;
   margin-bottom: 30px;
-  position: relative;
-  z-index: 2;
 }
 
 .titulo h1 {
   font-size: 34px;
+  text-transform: uppercase;
   letter-spacing: 2px;
   margin: 0;
   font-weight: 700;
-  text-transform: uppercase;
   text-shadow: 2px 2px 4px rgba(0,0,0,0.45);
 }
 
-/* ----- Escudo ----- */
+/* Escudo */
 .escudo {
   position: absolute;
   right: 60px;
   bottom: 20px;
-  z-index: 2;
 }
 
 .escudo img {
@@ -48,33 +44,29 @@ body {
   display: block;
 }
 
-/* ----- Contenedor de rombos ----- */
+/* Contenedor de rombos */
 .contenedor-rombos {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 45px;
-  position: relative;
-  z-index: 2;
+  gap: 40px;
 }
 
-/* Cada fila centrada */
+/* Fila base */
 .fila {
   display: flex;
   justify-content: center;
-  gap: 45px;
-  width: 100%;
-  position: relative;
+  gap: 50px;
 }
 
-/* Desplazamientos equilibrados (en lugar de margin-left) */
-.fila1 { transform: translateX(0); }
-.fila2 { transform: translateX(25px); }
-.fila3 { transform: translateX(50px); }
-.fila4 { transform: translateX(75px); }
-.fila5 { transform: translateX(50px); }
+/* Ajuste simétrico para cada fila */
+.fila1 { transform: translateX(0px); }
+.fila2 { transform: translateX(0px); }
+.fila3 { transform: translateX(0px); }
+.fila4 { transform: translateX(0px); }
+.fila5 { transform: translateX(0px); }
 
-/* ----- Rombo ----- */
+/* Rombo */
 .rombo {
   width: 90px;
   height: 90px;
@@ -98,5 +90,4 @@ body {
   object-fit: cover;
   transform: rotate(-45deg);
   border-radius: 8px;
-  display: block;
 }
