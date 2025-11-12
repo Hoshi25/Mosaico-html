@@ -10,14 +10,14 @@ document.addEventListener("DOMContentLoaded", function() {
     5: "videos/Juandavid_v.mp4",
     6: "videos/Isabella_v.mp4",
     7: "videos/Ed_v.mp4",
-    8: "", // sin video
-    9: "videos/Mariap_v.mp4",
-    10: "videos/Emy_v.mp4",
-    11: "videos/Moreno_v.mp4",
+    8: "videos/Dali_v.mp4",
+    9: "videos/Maria Paula_v.mp4",
+    10: "videos/Emily_v.mp4",
+    11: "", // sin video
     12: "videos/Maria_v.mp4",
     13: "videos/Dustin_v.mp4",
     14: "", // sin video
-    15: "videos/Danna_v.mp4",
+    15: "videos/Dana_v.mp4",
     16: "videos/Salamanca_v.mp4",
     17: "videos/Karen_v.mp4",
     18: "videos/Nicol_v.mp4",
