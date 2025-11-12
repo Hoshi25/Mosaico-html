@@ -35,7 +35,14 @@ document.addEventListener("DOMContentLoaded", function() {
     isabela: "videos/isabella.mp4",
     nicolas: "videos/nicolas acevedo.mp4",
     dana: "videos/dana.mp4",
-    ed: "videos/ed.mp4"
+    ed: "videos/ed.mp4",
+    Dustyn: "videos/Dustyn_v.mp4",
+    Fique: "videos/JuanDavid_v.mp4",
+    Maria_Paula: "videos/Maria Paula_v.mp4",
+    Moreno: "videos/Moreno_v.mp4",
+    Santiago: "videos/santiago_v.mp4",
+    Salamanca: "videos/Salamanca_v.mp4",
+
   };
 
   // Referencias al modal
@@ -73,17 +80,18 @@ document.addEventListener("DOMContentLoaded", function() {
   rombo1.addEventListener("click", () => abrirPopup(videos.Dali));
   rombo2.addEventListener("click", () => abrirPopup(videos.ed));
   rombo3.addEventListener("click", () => abrirPopup(videos.Daniela));
-  //rombo4.addEventListener("click", () => abrirPopup(videos.));
+  rombo4.addEventListener("click", () => abrirPopup(videos.Santiago));
   rombo5.addEventListener("click", () => abrirPopup(videos.Karen_Silva));
-  //rombo6.addEventListener("click", () => abrirPopup(videos.));
+  rombo6.addEventListener("click", () => abrirPopup(videos.Fique));
   rombo7.addEventListener("click", () => abrirPopup(videos.isabela));
-  //rombo8.addEventListener("click", () => abrirPopup(videos.));
-  //rombo9.addEventListener("click", () => abrirPopup(videos.));
-  //rombo10.addEventListener("click", () => abrirPopup(videos.));
+  rombo8.addEventListener("click", () => abrirPopup(videos.Maria_Paula));
+  rombo9.addEventListener("click", () => abrirPopup(videos.Nicol));
+  rombo10.addEventListener("click", () => abrirPopup(videos.Dustyn));
   rombo11.addEventListener("click", () => abrirPopup(videos.Emy));
   rombo12.addEventListener("click", () => abrirPopup(videos.Sofia_Velandia));
   rombo13.addEventListener("click", () => abrirPopup(videos.nicolas));
-  //rombo14.addEventListener("click", () => abrirPopup(videos.));
+  rombo14.addEventListener("click", () => abrirPopup(videos.Moreno));
   rombo15.addEventListener("click", () => abrirPopup(videos.dana));
+  rombo15.addEventListener("click", () => abrirPopup(videos.Salamanca));
 });
   
