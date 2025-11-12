@@ -4,66 +4,110 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>Mosaico UMNG</title>
-  <!-- Asegúrate que el nombre del CSS coincide exactamente -->
   <link rel="stylesheet" href="mosaicocss.css">
+  <script src="videos.js"></script>
+
 </head>
 <body>
+  <!-- Modal para mostrar los videos -->
+  <div id="videoModal" class="modal">
+    <div class="modal-content">
+      <span class="cerrar">&times;</span>
+      <video id="videoPlayer" width="100%" controls autoplay></video>
+    <button id="btnCerrarVideo">Cerrar video</button>
+    </div>
+  </div>
+
   <div class="mosaico">
-    <!-- TÍTULO dentro del recuadro azul -->
     <div class="titulo">
       <h1>UNIVERSIDAD MILITAR NUEVA GRANADA</h1>
     </div>
 
-    <!-- CONTENEDOR DE ROMBOS (6,5,4,3,4) -->
     <div class="contenedor-rombos">
-      <!-- Fila 1: 6 rombos -->
+      <!-- Fila 1 -->
       <div class="fila fila1">
-        <div class="rombo"></div>
-        <div class="rombo"></div>
-        <div class="rombo"></div>
-        <div class="rombo"></div>
-        <div class="rombo"></div>
-        <div class="rombo"></div>
+        <div class="rombo" id="rombo1">
+          <img src="Imagenes/dali.jpg" alt="Imagen 1">  
+        </div>
+      <div class="rombo" id="rombo2">
+          <img src="Imagenes/edward.jpg" alt="Imagen 2">
+        </div>
+
+        <!-- Rombo Daniela -->
+        <div class="rombo" id="rombo3">
+          <img src="Imagenes/daniela.jpeg" alt="Imagen 3">
+        </div>
+
+        <!-- Rombo Santiago -->
+        <div class="rombo" id="rombo4">
+          <img src="Imagenes/santiago bolaños.jpeg" alt="Imagen 4">
+        </div>      
       </div>
 
-      <!-- Fila 2: 5 rombos -->
+      <!-- Fila 2 -->
       <div class="fila fila2">
-        <div class="rombo"></div>
-        <div class="rombo"></div>
-        <div class="rombo"></div>
-        <div class="rombo"></div>
-        <div class="rombo"></div>
+         <div class="rombo" id="rombo5">
+          <img src="Imagenes/karen silva.jpg" alt="Imagen 5">
+        </div>
+        <div class="rombo" id="rombo6">
+          <img src="Imagenes/juandavid.jpeg"  alt="Imagen 6">
+      </div>
+        <div class="rombo" id="rombo7">
+        <img src="Imagenes/isabella.jpeg" alt="Imagen 7">
+      </div>
+        <div class="rombo" id="rombo8">
+        <img src="Imagenes/maria paula.jpg" alt="Imagen 8">
+      </div>
       </div>
 
-      <!-- Fila 3: 4 rombos -->
+      <!-- Fila 3 -->
       <div class="fila fila3">
-        <div class="rombo"></div>
-        <div class="rombo"></div>
-        <div class="rombo"></div>
-        <div class="rombo"></div>
+      <div class="rombo" id="rombo9">
+        <img src="Imagenes/nicol.jpg" alt="Imagen 9">
+      </div>
+        <div class="rombo" id="rombo10">
+        <img src="Imagenes/samuel fernandez.jpg" alt="Imagen 10">
+      </div>
+        <div class="rombo" id="rombo11">
+          <img src="Imagenes/emy.jpeg" alt="Imagen 11">
+        </div>
+        <div class="rombo" id="rombo12">
+          <img src="Imagenes/sofia velandia.jpg" alt="Imagen 12">
+      </div>
+    
       </div>
 
-      <!-- Fila 4: 3 rombos -->
+      <!-- Fila 4 -->
       <div class="fila fila4">
-        <div class="rombo"></div>
-        <div class="rombo"></div>
+        <div class="rombo"  id="rombo13">
+          <img src="Imagenes/nicolas.jpg" alt="Imagen 13">
+      </div>
+        <div class="rombo" id="rombo14">
+          <img src="Imagenes/juan moreno.jpg" alt="Imagen 14">
+      </div>
+        <div class="rombo" id="rombo15">
+          <img src="Imagenes/dana.jpg" alt="Imagen 15">
+      </div>
         <div class="rombo"></div>
       </div>
 
-      <!-- Fila 5: 4 rombos -->
+      <!-- Fila 5 -->
       <div class="fila fila5">
         <div class="rombo"></div>
         <div class="rombo"></div>
         <div class="rombo"></div>
         <div class="rombo"></div>
+        <div class="rombo"></div>
       </div>
     </div>
 
-    <!-- ESCUDO (imagen) : reemplaza "escudo.png" por la ruta de tu archivo -->
+    <!-- Escudo -->
     <div class="escudo">
-      <!-- Descomenta y cambia la ruta cuando tengas la imagen -->
-      <img src="Bandera_UMNG.jpg" alt="Escudo Universidad Militar Nueva Granada">
+      <img src="Imagenes/Escudo.jpg" alt="Escudo Universidad Militar Nueva Granada">
     </div>
   </div>
+
+  <!-- Conexión al script -->
+  <script src="script.js"></script>
 </body>
 </html>
