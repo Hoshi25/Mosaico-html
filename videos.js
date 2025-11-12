@@ -27,6 +27,7 @@ document.addEventListener("DOMContentLoaded", function() {
   // Rutas de tus videos
   const videos = {
     Dali: "videos/DALI.mp4",
+    Nicol: "videos/Nicol_v.mp4",
     Emy: "videos/emy.mp4",
     Karen_Silva: "videos//Karen Silva.mp4",
     Sofia_Velandia: "videos/Sofia Velandia.mp4",
