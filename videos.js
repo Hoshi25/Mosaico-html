@@ -29,6 +29,7 @@ document.addEventListener("DOMContentLoaded", function() {
     Dali: "videos/DALI.mp4",
     Nicol: "videos/Nicol_v.mp4",
     Emy: "videos/emy.mp4",
+    Daniela: "videos/Daniela_v.mp4",
     Karen_Silva: "videos//Karen Silva.mp4",
     Sofia_Velandia: "videos/Sofia Velandia.mp4",
     isabela: "videos/isabella.mp4",
