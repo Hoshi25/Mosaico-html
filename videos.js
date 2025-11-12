@@ -32,7 +32,8 @@ document.addEventListener("DOMContentLoaded", function() {
     Sofia_Velandia: "videos/Sofia Velandia.mp4",
     isabela: "videos/isabella.mp4",
     nicolas: "videos/nicolas acevedo.mp4",
-    dana: "videos/dana.mp4"
+    dana: "videos/dana.mp4",
+    ed: "videos/ed.mp4"
   };
 
   // Referencias al modal
@@ -68,7 +69,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
   // Asignar eventos de clic a los rombos
   rombo1.addEventListener("click", () => abrirPopup(videos.Dali));
-  //rombo2.addEventListener("click", () => abrirPopup(videos.));
+  rombo2.addEventListener("click", () => abrirPopup(videos.ed));
   //rombo3.addEventListener("click", () => abrirPopup(videos.));
   //rombo4.addEventListener("click", () => abrirPopup(videos.));
   rombo5.addEventListener("click", () => abrirPopup(videos.Karen_Silva));
@@ -82,11 +83,5 @@ document.addEventListener("DOMContentLoaded", function() {
   rombo13.addEventListener("click", () => abrirPopup(videos.nicolas));
   //rombo14.addEventListener("click", () => abrirPopup(videos.));
   rombo15.addEventListener("click", () => abrirPopup(videos.dana));
-  //rombo16.addEventListener("click", () => abrirPopup(videos.));
-  //rombo17.addEventListener("click", () => abrirPopup(videos.));
-  //rombo18.addEventListener("click", () => abrirPopup(videos.));
-  //rombo19.addEventListener("click", () => abrirPopup(videos.));
-  //rombo20.addEventListener("click", () => abrirPopup(videos.));
-  //rombo21.addEventListener("click", () => abrirPopup(videos.));
 });
   
