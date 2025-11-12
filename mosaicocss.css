@@ -1,171 +1,144 @@
-/* Fondo general */
+/* === FONDO GENERAL === */
 body {
   margin: 0;
-  background: red;
-  font-family: Arial, sans-serif;
+  background-color: #0a0a0a;
+  background-image: 
+    radial-gradient(circle at 20% 20%, rgba(255,215,0,0.15) 0%, transparent 40%),
+    linear-gradient(135deg, #002855 25%, #b30000 100%);
+  background-attachment: fixed;
+  font-family: 'Montserrat', sans-serif;
 }
 
-/* Marco azul */
+
+@keyframes fondoAnimado {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+
+
+/* === CONTENEDOR PRINCIPAL === */
 .mosaico {
-  margin: 40px auto;
-  width: 90%;
-  background-color: #003366;
-  border: 6px solid #FFD700;
+  margin: 50px auto;
+  width: 75%;
+  background-color: #002855; /* Azul institucional */
+  border: 8px solid #FFD700; /* Dorado UMNG */
+  border-radius: 12px;
   position: relative;
-  padding: 30px 40px 100px 40px;
-  box-shadow: 0 0 15px rgba(0,0,0,0.5);
+  padding: 10px 10px 50px 5px;
+  box-shadow: 0 0 25px rgba(0,0,0,0.5);
+  overflow: hidden;
 }
 
-/* Título */
+/* === TÍTULO === */
 .titulo {
   text-align: center;
-  color: white;
-  margin-bottom: 30px;
+  color: #fff;
+  margin-bottom: 40px;
 }
 
 .titulo h1 {
-  font-size: 34px;
+  font-size: 38px;
+  font-weight: 800;
   text-transform: uppercase;
-  letter-spacing: 2px;
-  margin: 0;
-  font-weight: 700;
-  text-shadow: 2px 2px 4px rgba(0,0,0,0.45);
+  letter-spacing: 3px;
+  text-shadow: 2px 2px 6px rgba(0,0,0,0.6);
+  border-bottom: 2px solid #FFD700;
+  display: inline-block;
+  padding-bottom: 8px;
 }
 
-/* Escudo */
+/* === ESCUDO === */
 .escudo {
   position: absolute;
-  right: 60px;
-  bottom: 20px;
+  right: 50px;
+  bottom: 30px;
+  transition: transform 0.4s ease;
+}
+
+.escudo:hover {
+  transform: scale(1.05);
 }
 
 .escudo img {
-  width: 190px;
-  display: block;
+  width: 160px;
+  border-radius: 8px;
 }
 
-/* Contenedor de rombos */
+/* === CONTENEDOR DE ROMBOS === */
 .contenedor-rombos {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 30px;
+  gap: 40px;
 }
 
-/* Fila base */
+/* === FILAS === */
 .fila {
   display: flex;
   justify-content: center;
-  gap: 50px;
+  gap: 60px;
 }
 
-/* Ajuste simétrico para cada fila */
-.fila1 { transform: translateX(0px); }
-.fila2 { transform: translateX(0px); }
-.fila3 { transform: translateX(0px); }
-.fila4 { transform: translateX(0px); }
-.fila5 { transform: translateX(0px); }
-
-
-/* ----- Rombo ----- */
-/* ----- Rombo ----- */
+/* === ROMBOS === */
 .rombo {
-  width: 90px;
-  height: 90px;
-  background-color: white;
-  border: 8px solid #FFD700;  /* borde dorado */
+  width: 100px;
+  height: 100px;
+  background-color: #fff;
+  border: 5px solid #FFD700;
   transform: rotate(45deg);
   display: flex;
   align-items: center;
   justify-content: center;
-  box-shadow: 0 3px 8px rgba(0,0,0,0.3);
-  transition: transform 0.25s ease;
-  overflow: hidden; /* asegura que la imagen no sobresalga */
+  box-shadow: 0 5px 15px rgba(0,0,0,0.4);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  overflow: hidden;
+  cursor: pointer;
+  position: relative;
 }
 
-/* Hover opcional */
 .rombo:hover {
-  transform: rotate(45deg) scale(1.05);
+  transform: rotate(45deg) scale(1.15);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.5);
 }
 
 /* Imagen dentro del rombo */
 .rombo img {
-  width: 100%;
-  height: 100%;
-  object-fit: contain; /* ahora la imagen se adapta sin recortarse */
-  background-color: white; /* relleno blanco para bordes vacíos */
-  transform: rotate(-45deg);
-  border-radius: 8px;
-  display: block;
+  width: 120%;
+  height: 120%;
+  object-fit: cover;
+  transform: rotate(-45deg) scale(1.1);
+  border-radius: 10px;
+  transition: transform 0.4s ease;
 }
-/* Estilo del modal */
+
+.rombo:hover img {
+  transform: rotate(-45deg) scale(1.25);
+}
+
+/* === MODAL VIDEO === */
 .modal {
-  display: none; /* oculto por defecto */
+  display: none;
   position: fixed;
   z-index: 1000;
   left: 0;
   top: 0;
   width: 100%;
   height: 100%;
-  overflow: auto;
-  background-color: rgba(0,0,0,0.8);
-}
-
-.modal-content {
-  position: relative;
-  margin: 10% auto;
-  padding: 0;
-  width: 650px;
-  max-width: 90%;
-  text-align: center;
-  background-color: #fff;
-  border-radius: 12px;
-  overflow: hidden;
-}
-
-.cerrar {
-  position: absolute;
-  top: 10px;
-  right: 20px;
-  color: #333;
-  font-size: 28px;
-  font-weight: bold;
-  cursor: pointer;
-}
-
-/* Estilo del modal */
-.modal {
-  display: none; /* Oculto por defecto */
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0,0,0,0.8);
+  background-color: rgba(0,0,0,0.85);
   justify-content: center;
   align-items: center;
-  z-index: 9999;
 }
 
-/* Contenedor del video */
 .modal-content {
   position: relative;
   width: 80%;
-  max-width: 500px;
-  background: #000;
-  border-radius: 8px;
+  max-width: 650px;
+  background-color: #000;
+  border-radius: 12px;
   overflow: hidden;
-}
-
-/* Botón cerrar */
-.cerrar {
-  position: absolute;
-  top: 10px;
-  right: 20px;
-  color: white;
-  font-size: 30px;
-  cursor: pointer;
-  z-index: 10000;
+  box-shadow: 0 0 20px rgba(0,0,0,0.6);
 }
 
 video {
@@ -174,19 +147,35 @@ video {
   display: block;
 }
 
+.cerrar {
+  position: absolute;
+  top: 12px;
+  right: 20px;
+  color: #fff;
+  font-size: 30px;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.cerrar:hover {
+  color: #FFD700;
+}
+
 #btnCerrarVideo {
   display: block;
-  margin: 15px auto;
-  padding: 10px 20px;
-  background-color: #e50914; /* rojo tipo Netflix */
-  color: white;
+  margin: 20px auto;
+  padding: 10px 24px;
+  background-color: #FFD700;
+  color: #002855;
   border: none;
   border-radius: 6px;
+  font-weight: bold;
   font-size: 16px;
   cursor: pointer;
-  transition: background 0.3s;
+  transition: all 0.3s;
 }
 
 #btnCerrarVideo:hover {
-  background-color: #b00610;
+  background-color: #e6c200;
+  transform: scale(1.05);
 }
