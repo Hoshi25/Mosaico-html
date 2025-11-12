@@ -133,8 +133,8 @@ body {
 
 .modal-content {
   position: relative;
-  width: 80%;
-  max-width: 650px;
+  width: 50%;
+  max-width: 450px;
   background-color: #000;
   border-radius: 12px;
   overflow: hidden;
