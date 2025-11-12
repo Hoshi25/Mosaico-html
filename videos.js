@@ -92,6 +92,6 @@ document.addEventListener("DOMContentLoaded", function() {
   rombo13.addEventListener("click", () => abrirPopup(videos.nicolas));
   rombo14.addEventListener("click", () => abrirPopup(videos.Moreno));
   rombo15.addEventListener("click", () => abrirPopup(videos.dana));
-  rombo15.addEventListener("click", () => abrirPopup(videos.Salamanca));
+  rombo16.addEventListener("click", () => abrirPopup(videos.Salamanca));
 });
   
