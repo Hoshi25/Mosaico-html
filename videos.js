@@ -30,7 +30,9 @@ document.addEventListener("DOMContentLoaded", function() {
     Emy: "videos/emy.mp4",
     Karen_Silva: "videos//Karen Silva.mp4",
     Sofia_Velandia: "videos/Sofia Velandia.mp4",
-    isabela: "imagenes/isabella.jpg",
+    isabela: "videos/isabella.mp4",
+    nicolas: "videos/nicolas acevedo.mp4",
+    dana: "videos/dana.mp4"
   };
 
   // Referencias al modal
@@ -77,9 +79,9 @@ document.addEventListener("DOMContentLoaded", function() {
   //rombo10.addEventListener("click", () => abrirPopup(videos.));
   rombo11.addEventListener("click", () => abrirPopup(videos.Emy));
   rombo12.addEventListener("click", () => abrirPopup(videos.Sofia_Velandia));
-  //rombo13.addEventListener("click", () => abrirPopup(videos.));
+  rombo13.addEventListener("click", () => abrirPopup(videos.nicolas));
   //rombo14.addEventListener("click", () => abrirPopup(videos.));
-  //rombo15.addEventListener("click", () => abrirPopup(videos.));
+  rombo15.addEventListener("click", () => abrirPopup(videos.dana));
   //rombo16.addEventListener("click", () => abrirPopup(videos.));
   //rombo17.addEventListener("click", () => abrirPopup(videos.));
   //rombo18.addEventListener("click", () => abrirPopup(videos.));
