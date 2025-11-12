@@ -72,7 +72,7 @@ document.addEventListener("DOMContentLoaded", function() {
   // Asignar eventos de clic a los rombos
   rombo1.addEventListener("click", () => abrirPopup(videos.Dali));
   rombo2.addEventListener("click", () => abrirPopup(videos.ed));
-  rombo3.addEventListener("click", () => abrirPopup(videos.Daniela_v));
+  rombo3.addEventListener("click", () => abrirPopup(videos.Daniela));
   //rombo4.addEventListener("click", () => abrirPopup(videos.));
   rombo5.addEventListener("click", () => abrirPopup(videos.Karen_Silva));
   //rombo6.addEventListener("click", () => abrirPopup(videos.));
