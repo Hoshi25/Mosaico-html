@@ -66,8 +66,6 @@ body {
 .fila4 { transform: translateX(0px); }
 .fila5 { transform: translateX(0px); }
 
-
-/* ----- Rombo ----- */
 /* ----- Rombo ----- */
 .rombo {
   width: 90px;
@@ -98,6 +96,7 @@ body {
   border-radius: 8px;
   display: block;
 }
+
 /* Estilo del modal */
 .modal {
   display: none; /* oculto por defecto */
@@ -131,4 +130,9 @@ body {
   font-size: 28px;
   font-weight: bold;
   cursor: pointer;
+}
+
+/* === Separación específica entre fila 1 y fila 2 === */
+.fila1 {
+  margin-bottom: 2%; /* Ajusta este valor si aún están muy cerca */
 }
