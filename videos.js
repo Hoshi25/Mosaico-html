@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", function() {
     10: "videos/Emily_v.mp4",
     11: "", // sin video
     12: "videos/Maria_v.mp4",
-    13: "videos/Dustin_v.mp4",
+    13: "videos/Dustyn_v.mp4",
     14: "", // sin video
     15: "videos/Dana_v.mp4",
     16: "videos/Salamanca_v.mp4",
