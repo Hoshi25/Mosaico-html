@@ -65,12 +65,12 @@ body {
 .fila3 { transform: translateX(-218px); }
 .fila4 { transform: translateX(-135px); }
 
-/* 🎯 ----- ROMBO CORREGIDO ----- */
+/* 🎯 ----- ROMBO ----- */
 .rombo {
   width: 80px;
   height: 80px;
   background-color: white;
-  border: 8px solid #FFD700;  
+  border: 8px solid #FFD700;
   transform: rotate(45deg);
   display: flex;
   align-items: center;
@@ -80,7 +80,7 @@ body {
   position: relative;
 }
 
-/* 🎯 Imagen centrada dentro del rombo */
+/* Imagen centrada dentro del rombo */
 .rombo img {
   width: 115%;
   height: 140%;
@@ -91,7 +91,6 @@ body {
   transform: translate(-50%, -50%) rotate(-45deg);
   display: block;
 }
-
 
 /* Hover */
 .rombo:hover {
@@ -128,7 +127,7 @@ body {
   z-index: 2000;
 }
 
-/* Nombre en amarillo debajo del rombo */
+/* Nombre amarillo debajo del rombo (si lo usas) */
 .nombre-rombo {
   position: absolute;
   bottom: -28px;
@@ -160,7 +159,7 @@ body {
 .modal-content {
   position: relative;
   margin: 6% auto;
-  width: 400px;      /* antes 760 */
+  width: 400px;
   max-width: 90%;
   background: #fff;
   border-radius: 12px;
@@ -171,15 +170,21 @@ body {
 .modal video {
   width: 100%;
   height: auto;
-  max-height: 70vh;  /* evitar que sea gigante */
+  max-height: 70vh;
 }
 
+/* ❌ BOTÓN DE CERRAR (corregido con z-index) */
 .cerrar {
+  all: unset; /* limpiar estilo de button */
   position: absolute;
   top: 10px;
   right: 20px;
-  color: #333;
   font-size: 28px;
   font-weight: bold;
+  color: #333;
   cursor: pointer;
+  z-index: 9999;       /* ← FIX IMPORTANTE */
+  background: rgba(255,255,255,0.7);
+  padding: 2px 8px;
+  border-radius: 6px;
 }
