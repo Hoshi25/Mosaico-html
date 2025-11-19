@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", function () {
     12: { archivo: "Moreno_v.mp4", nombre: "Daniel Moreno (Posproductor/Animador 3D)" },
     13: { archivo: "Nicol_v.mp4", nombre: "Nicol Bolaños (Artista digital/tradicional)" },
     14: { archivo: "Nicolas_v.mp4", nombre: "Nicolás Acevedo (Productor audiovisual)" },
-    15: { archivo: "Salamaca_v.mp4", nombre: "Video de Salamanca" },
+    15: { archivo: "Salamaca_v.mp4", nombre: "Felipe Salamanca (Productor y director de cine)" },
     16: { archivo: "Santiago_v.mp4", nombre: "Santiago Bolaños (Modelador 3D/Especialista en render)" },
     17: { archivo: "Sofia_v.mp4", nombre: "Sofia Velandia (Desarrolladora de videojuegos/Animadora)" },
     18: { archivo: "Vera_v.mp4", nombre: "Juan Vera (Fotografo/Desarrollador de videojuegos)" }
