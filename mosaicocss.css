@@ -56,7 +56,7 @@ body {
 .fila {
   display: flex;
   justify-content: center;
-  gap: 40px;
+  gap: 60px;
 }
 
 /* Ajuste simétrico para cada fila */
