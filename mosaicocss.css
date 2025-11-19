@@ -31,44 +31,7 @@ body {
   font-weight: 700;
   text-shadow: 2px 2px 4px rgba(0,0,0,0.45);
 }
-/* ⭐ Subtítulo en el lado derecho ⭐ */
-.subtitulo-horizontal {
-  position: absolute;
 
-  /* Ubicación EXACTA según tu captura */
-  right: 20px;         /* Ajusta si quieres acercarlo más al borde */
-  top: 150px;           /* Altura perfecta respecto a la primera fila */
-
-  font-size: 50px;
-  font-weight: 900;
-  color: #ffffff;
-  text-shadow: 4px 4px 10px rgba(0,0,0,0.7);
-
-  letter-spacing: 3.5px;
-
-  white-space: nowrap;
-  pointer-events: none;
-  z-index: 2000;
-}
-/* ⭐ Subtítulo en el lado derecho letra pequeña ⭐ */
-.subtitulo-horizontal-abajo {
-  position: absolute;
-
-  /* Ubicación EXACTA según tu captura */
-  right: 30px;         /* Ajusta si quieres acercarlo más al borde */
-  top: 260px;           /* Altura perfecta respecto a la primera fila */
-
-  font-size: 29px;
-  font-weight: 500;
-  color: #ffffff;
-  text-shadow: 4px 4px 10px rgba(0,0,0,0.7);
-
-  letter-spacing: 2px;
-
-  white-space: nowrap;
-  pointer-events: none;
-  z-index: 2000;
-}
 /* Escudo */
 .escudo {
   position: absolute;
@@ -137,7 +100,7 @@ body {
 .modal {
   display: none; /* oculto por defecto */
   position: fixed;
-  z-index: 1000;
+  z-index: 5000;
   left: 0;
   top: 0;
   width: 100%;
@@ -168,7 +131,44 @@ body {
   cursor: pointer;
 }
 
+/* ⭐ Subtítulo en el lado derecho ⭐ */
+.subtitulo-horizontal {
+  position: absolute;
 
+  /* Ubicación EXACTA según tu captura */
+  right: 20px;         /* Ajusta si quieres acercarlo más al borde */
+  top: 150px;           /* Altura perfecta respecto a la primera fila */
+
+  font-size: 50px;
+  font-weight: 900;
+  color: #ffffff;
+  text-shadow: 4px 4px 10px rgba(0,0,0,0.7);
+
+  letter-spacing: 3.5px;
+
+  white-space: nowrap;
+  pointer-events: none;
+  z-index: 2000;
+}
+/* ⭐ Subtítulo en el lado derecho letra pequeña ⭐ */
+.subtitulo-horizontal-abajo {
+  position: absolute;
+
+  /* Ubicación EXACTA según tu captura */
+  right: 30px;         /* Ajusta si quieres acercarlo más al borde */
+  top: 350px;           /* Altura perfecta respecto a la primera fila */
+
+  font-size: 29px;
+  font-weight: 500;
+  color: #ffffff;
+  text-shadow: 4px 4px 10px rgba(0,0,0,0.7);
+
+  letter-spacing: 2px;
+
+  white-space: nowrap;
+  pointer-events: none;
+  z-index: 2000;
+}
 
 /* chatsito :vvvv
 

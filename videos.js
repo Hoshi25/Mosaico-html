@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function () {
   const rombos = document.querySelectorAll(".rombo");
 
-  // Videos ordenados del 1 al 18
+  // Datos de videos
   const videos = {
     1: { archivo: "Dali_v.mp4", nombre: "Dali Gonzales (Programador de videojuegos)" },
     2: { archivo: "Daniela_v.mp4", nombre: "Daniela Beltran (Artista 3D en entornos/Animadora)" },
@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", function () {
     8: { archivo: "Juandavid_v.mp4", nombre: "David Fique (Productor audiovisual/Postproductor)" },
     9: { archivo: "Karen_v.mp4", nombre: "Karen Silva (Productora y diseñadora multimedia)" },
     10: { archivo: "Maria_v.mp4", nombre: "Maria Ocampo (Productora audiovisual)" },
-    11: { archivo: "Mariap_v.mp4", nombre: "Maria Paula Lesmes (Productora Multimedia)." },
+    11: { archivo: "Mariap_v.mp4", nombre: "Maria Paula Lesmes (Productora Multimedia)" },
     12: { archivo: "Moreno_v.mp4", nombre: "Daniel Moreno (Posproductor/Animador 3D)" },
     13: { archivo: "Nicol_v.mp4", nombre: "Nicol Bolaños (Artista digital/tradicional)" },
     14: { archivo: "Nicolas_v.mp4", nombre: "Nicolás Acevedo (Productor audiovisual)" },
@@ -23,56 +23,42 @@ document.addEventListener("DOMContentLoaded", function () {
     18: { archivo: "Vera_v.mp4", nombre: "Juan Vera (Fotografo/Desarrollador de videojuegos)" }
   };
 
-  // Abrir ventana nueva con título + video
-  function abrirVentana(video, titulo) {
-    const nuevaVentana = window.open("gei", "¿Cómo nos vemos en 5 años?", "width=800,height=600,resizable=yes");
+  // ============================
+  // 📌 MODAL (NO POPUP)
+  // ============================
 
-    if (!nuevaVentana) {
-      alert("⚠️ Tu navegador bloqueó la ventana emergente. Activa los popups.");
-      return;
-    }
+  const modal = document.getElementById("videoModal");
+  const videoPlayer = document.getElementById("videoPlayer");
+  const cerrarBtn = document.querySelector(".cerrar");
 
-    nuevaVentana.document.write(`
-      <html>
-      <head>
-        <title>${titulo}</title>
-        <style>
-          body {
-            margin: 0;
-            background: #000;
-            color: white;
-            font-family: Arial, sans-serif;
-            text-align: center;
-          }
-          h1 {
-            margin: 15px 0;
-            font-size: 24px;
-          }
-          video {
-            width: 100%;
-            height: calc(100vh - 70px);
-            object-fit: contain;
-          }
-        </style>
-      </head>
-      <body>
-        <h1>${titulo}</h1>
-        <video src="${video}" autoplay muted playsinline></video>
-      </body>
-      </html>
-    `);
-    nuevaVentana.document.close();
+  function abrirModal(src, titulo) {
+    videoPlayer.src = src;
+    videoPlayer.autoplay = true;
+    modal.style.display = "block";
   }
 
-  // Eventos de clic
+  function cerrarModal() {
+    modal.style.display = "none";
+    videoPlayer.pause();
+    videoPlayer.src = "";
+  }
+
+  cerrarBtn.addEventListener("click", cerrarModal);
+
+  window.addEventListener("click", function (e) {
+    if (e.target === modal) cerrarModal();
+  });
+
+  // ============================
+  // 📌 EVENTOS EN ROMBOS
+  // ============================
+
   rombos.forEach((rombo, index) => {
     const numero = index + 1;
-
     if (videos[numero]) {
       rombo.addEventListener("click", () => {
-        abrirVentana(videos[numero].archivo, videos[numero].nombre);
+        abrirModal(videos[numero].archivo, videos[numero].nombre);
       });
     }
   });
-
 });
