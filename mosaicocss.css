@@ -61,7 +61,7 @@ body {
 
 /* Ajuste simétrico para cada fila */
 .fila1 { transform: translateX(0px); }
-.fila2 { transform: translateX(10px); }
+.fila2 { transform: translateX(0px); }
 .fila3 { transform: translateX(0px); }
 .fila4 { transform: translateX(0px); }
 .fila5 { transform: translateX(0px); }
