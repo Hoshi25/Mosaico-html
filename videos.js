@@ -3,24 +3,24 @@ document.addEventListener("DOMContentLoaded", function() {
 
   // Orden exacto del 1 al 21 según tu lista
   const videos = {
-    1: "nicolas_v.mp4",
-    2: "", // sin video
-    3: "Daniela_v.mp4",
-    4: "Santiago_v.mp4",
-    5: "Juandavid_v.mp4",
-    6: "Isabella_v.mp4",
-    7: "Ed_v.mp4",
-    8: "", // sin video
-    9: "Mariap_v.mp4",
-    10: "Emy_v.mp4",
-    11: "Moreno_v.mp4",
-    12: "Maria_v.mp4",
-    13: "Dustin_v.mp4",
-    14: "", // sin video
-    15: "Danna_v.mp4",
-    16: "Salamanca_v.mp4",
-    17: "Karen_v.mp4",
-    18: "Nicol_v.mp4",
+    1: "Dali_v.mp4",
+    2: "Daniela_v.mp4",
+    3: "Danna_v.mp4",
+    4: "Dustin_v.mp4",
+    5: "Ed_v.mp4",
+    6: "Emily_v.mp4",
+    7: "Isabella_v.mp4",
+    8: "Juandavid_v.mp4",
+    9: "Karen_v.mp4",
+    10: "Maria_v.mp4",
+    11: "Mariap_v.mp4",
+    12: "Moreno_v.mp4",
+    13: "Nicol_v.mp4",
+    14: "Nicolas_v.mp4",
+    15: "Salamaca_v.mp4",
+    16: "Santiago_v.mp4",
+    17: "Sofia_v.mp4",
+    18: "Vera_v.mp4",
     19: "Sofia_v.mp4",
     20: "Vera_v.mp4",
     21: "" // sin video
