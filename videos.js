@@ -1,6 +1,7 @@
 document.addEventListener("DOMContentLoaded", function () {
   const rombos = document.querySelectorAll(".rombo");
 
+  const newLocal = "santiago_v.mp4";
   // Ruta de los videos: si los tienes en una carpeta "videos/", pon "videos/Nombre.mp4"
   const videos = {
     1: { archivo: "Dali_v.mp4", nombre: "｡.｡✧Dali Gonzales (Programador de videojuegos)" },
