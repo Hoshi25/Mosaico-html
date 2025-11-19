@@ -3,6 +3,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
   // Orden exacto del 1 al 21 según tu lista
   const videos = {
+<<<<<<< Updated upstream
     1: "nicolas_v.mp4",
     2: "", // sin video
     3: "Daniela_v.mp4",
@@ -24,6 +25,29 @@ document.addEventListener("DOMContentLoaded", function() {
     19: "Sofia_v.mp4",
     20: "Vera_v.mp4",
     21: "" // sin video
+=======
+    1: "videos/nicolas_v.mp4",
+    2: "", // sin video
+    3: "videos/Daniela_v.mp4",
+    4: "videos/Santiago_v.mp4",
+    5: "", // sin video
+    6: "videos/Juandavid_v.mp4",
+    7: "videos/Isabella_v.mp4",
+    8: "videos/Ed_v.mp4",
+    9: "", // sin video
+    10: "videos/Mariap_v.mp4",
+    11: "videos/Emy_v.mp4",
+    12: "videos/Moreno_v.mp4",
+    13: "videos/Maria_v.mp4",
+    14: "videos/Dustin_v.mp4",
+    15: "", // sin video
+    16: "videos/Danna_v.mp4",
+    17: "videos/Salamanca_v.mp4",
+    18: "videos/Karen_v.mp4",
+    19: "videos/Nicol_v.mp4",
+    20: "videos/Sofia_v.mp4",
+    21: "videos/Vera_v.mp4",
+>>>>>>> Stashed changes
   };
 
   // Función que abre la ventana emergente y reproduce el video automáticamente
