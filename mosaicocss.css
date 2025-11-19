@@ -135,3 +135,22 @@ body {
 .fila1 {
   margin-bottom: 2%; /* Ajusta este valor si aún están muy cerca */
 }
+
+
+/* chatsito :vvvv
+
+/* Nombre en la parte amarilla del rombo */
+.nombre-rombo {
+  position: absolute;
+  bottom: -28px;
+  left: 50%;
+  transform: translateX(-50%) rotate(-45deg);
+  background: #FFD700;
+  padding: 4px 10px;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #003366;
+  white-space: nowrap;
+  z-index: 10;
+}
