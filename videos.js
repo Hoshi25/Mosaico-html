@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", function () {
     13: { archivo: "Nicol_v.mp4", nombre: "｡.｡✧Nicol Bolaños (Artista digital/tradicional)" },
     14: { archivo: "Nicolas_v.mp4", nombre: "｡.｡✧Nicolás Acevedo (Productor audiovisual)" },
     15: { archivo: "Salamaca_v.mp4", nombre: "｡.｡✧Felipe Salamanca (Productor y director de cine)" },
-    16: { archivo: "/videos/santiago_v.mp4", nombre: "｡.｡✧Santiago Bolaños (Modelador 3D/Esp-render)" },
+    16: { archivo: "videos/santiago_v.mp4", nombre: "｡.｡✧Santiago Bolaños (Modelador 3D/Esp-render)" },
     17: { archivo: "Sofia_v.mp4", nombre: "｡.｡✧Sofia Velandia (Desarrollo-videojuegos/Animadora)" },
     18: { archivo: "Vera_v.mp4", nombre: "｡.｡✧Juan Vera (Fotografo/Desarrollo-videojuegos)" }
   };
