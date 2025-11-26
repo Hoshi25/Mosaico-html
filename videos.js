@@ -93,5 +93,10 @@ document.addEventListener("DOMContentLoaded", function() {
   rombo14.addEventListener("click", () => abrirPopup(videos.Moreno));
   rombo15.addEventListener("click", () => abrirPopup(videos.dana));
   rombo16.addEventListener("click", () => abrirPopup(videos.Salamanca));
+  rombo17.addEventListener("click", () => abrirPopup(videos.Salamanca));
+  rombo18.addEventListener("click", () => abrirPopup(videos.Salamanca));
+  rombo19.addEventListener("click", () => abrirPopup(videos.Salamanca));
+  rombo20.addEventListener("click", () => abrirPopup(videos.Salamanca));
+  rombo21.addEventListener("click", () => abrirPopup(videos.Salamanca));
 });
   
