@@ -26,22 +26,27 @@ document.addEventListener("DOMContentLoaded", function() {
 
   // Rutas de tus videos
   const videos = {
-    Dali: "videos/DALI.mp4",
-    Nicol: "videos/Nicol_v.mp4",
-    Emy: "videos/emy.mp4",
-    Daniela: "videos/Daniela_v.mp4",
-    Karen_Silva: "videos//Karen Silva.mp4",
-    Sofia_Velandia: "videos/Sofia Velandia.mp4",
-    isabela: "videos/isabella.mp4",
-    nicolas: "videos/nicolas acevedo.mp4",
-    dana: "videos/dana.mp4",
-    ed: "videos/ed.mp4",
-    Dustyn: "videos/Dustyn_v.mp4",
-    Fique: "videos/JuanDavid_v.mp4",
-    Maria_Paula: "videos/Maria Paula_v.mp4",
-    Moreno: "videos/Moreno_v.mp4",
-    Santiago: "videos/santiago_v.mp4",
-    Salamanca: "videos/Salamanca_v.mp4",
+    Angie: "videos/VideoAngie.mp4",
+    Dali: "videos/VideoDalix2.mp4",
+    Dana: "videos/VideoDannax2.mp4",
+    Daniela: "videos/VideoDanielax2.mp4",
+    Dustyn: "videos/VideoDustynx2.mp4",
+    ed: "videos/EdwardVideox2.mp4",
+    Emily: "videos/VideoEmilyx2.mp4",
+    isabela: "videos/VideoIsabellax2.mp4",
+    Fique: "videos/VideoFiquex2.mp4",
+    Karen: "videos/VideoKarenx2.mp4",
+    Maria_Paula: "videos/VideoMariaPx2.mp4",
+    Maria: "videos/VideoMariax2.mp4",
+    Moreno: "videos/VideoDanielx2.mp4",
+    Nicol: "videos/NicolVideox2.mp4",
+    nicolas: "videos/VideoNicolasx2.mp4",
+    npc: "videos/npc.mp4",
+    Salamanca: "videos/VideoFelipex2.mp4",
+    Santiago: "videos/VideoSantiagox2.mp4",
+    Simon: "videos/VideoSimonx2.mp4",
+    Sofia_Velandia: "videos/VideoSofiax2.mp4",
+    Vera: "videos/VideoVerax2.mp4"
 
   };
 
@@ -77,26 +82,25 @@ document.addEventListener("DOMContentLoaded", function() {
   });
 
   // Asignar eventos de clic a los rombos
-  rombo1.addEventListener("click", () => abrirPopup(videos.Dali));
-  rombo2.addEventListener("click", () => abrirPopup(videos.ed));
-  rombo3.addEventListener("click", () => abrirPopup(videos.Daniela));
-  rombo4.addEventListener("click", () => abrirPopup(videos.Santiago));
-  rombo5.addEventListener("click", () => abrirPopup(videos.Karen_Silva));
-  rombo6.addEventListener("click", () => abrirPopup(videos.Fique));
-  rombo7.addEventListener("click", () => abrirPopup(videos.isabela));
-  rombo8.addEventListener("click", () => abrirPopup(videos.Maria_Paula));
-  rombo9.addEventListener("click", () => abrirPopup(videos.Nicol));
-  rombo10.addEventListener("click", () => abrirPopup(videos.Dustyn));
-  rombo11.addEventListener("click", () => abrirPopup(videos.Emy));
-  rombo12.addEventListener("click", () => abrirPopup(videos.Sofia_Velandia));
-  rombo13.addEventListener("click", () => abrirPopup(videos.nicolas));
-  rombo14.addEventListener("click", () => abrirPopup(videos.Moreno));
-  rombo15.addEventListener("click", () => abrirPopup(videos.dana));
-  rombo16.addEventListener("click", () => abrirPopup(videos.Salamanca));
-  rombo17.addEventListener("click", () => abrirPopup(videos.Salamanca));
-  rombo18.addEventListener("click", () => abrirPopup(videos.Salamanca));
-  rombo19.addEventListener("click", () => abrirPopup(videos.Salamanca));
-  rombo20.addEventListener("click", () => abrirPopup(videos.Salamanca));
-  rombo21.addEventListener("click", () => abrirPopup(videos.Salamanca));
+  rombo1.addEventListener("click", () => abrirPopup(videos.Angie));
+  rombo2.addEventListener("click", () => abrirPopup(videos.Dali));
+  rombo3.addEventListener("click", () => abrirPopup(videos.Dana));
+  rombo4.addEventListener("click", () => abrirPopup(videos.Daniela));
+  rombo5.addEventListener("click", () => abrirPopup(videos.Dustyn));
+  rombo6.addEventListener("click", () => abrirPopup(videos.ed));
+  rombo7.addEventListener("click", () => abrirPopup(videos.Emily));
+  rombo8.addEventListener("click", () => abrirPopup(videos.Salamanca));
+  rombo9.addEventListener("click", () => abrirPopup(videos.isabela));
+  rombo10.addEventListener("click", () => abrirPopup(videos.Moreno));
+  rombo11.addEventListener("click", () => abrirPopup(videos.Fique));
+  rombo12.addEventListener("click", () => abrirPopup(videos.Karen));
+  rombo13.addEventListener("click", () => abrirPopup(videos.Maria_Paula));
+  rombo14.addEventListener("click", () => abrirPopup(videos.Maria));
+  rombo15.addEventListener("click", () => abrirPopup(videos.nicolas));
+  rombo16.addEventListener("click", () => abrirPopup(videos.Nicol));
+  rombo17.addEventListener("click", () => abrirPopup(videos.npc));
+  rombo18.addEventListener("click", () => abrirPopup(videos.Santiago));
+  rombo19.addEventListener("click", () => abrirPopup(videos.Simon));
+  rombo20.addEventListener("click", () => abrirPopup(videos.Sofia_Velandia));
 });
   
