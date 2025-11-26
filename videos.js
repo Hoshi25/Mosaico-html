@@ -41,10 +41,10 @@ document.addEventListener("DOMContentLoaded", function() {
     Moreno: "videos/VideoDanielx2.mp4",
     Nicol: "videos/NicolVideox2.mp4",
     nicolas: "videos/VideoNicolasx2.mp4",
-    npc: "videos/npc.mp4",
+    Samuel: "videos/VideoSamuelx2c.mp4",
     Salamanca: "videos/VideoFelipex2.mp4",
     Santiago: "videos/VideoSantiagox2.mp4",
-    Simon: "videos/VideoSimonx2.mp4",
+    Simon: "videos/VideoSimónx2.mp4",
     Sofia_Velandia: "videos/VideoSofiax2.mp4",
     Vera: "videos/VideoVerax2.mp4"
 
@@ -98,7 +98,7 @@ document.addEventListener("DOMContentLoaded", function() {
   rombo14.addEventListener("click", () => abrirPopup(videos.Maria));
   rombo15.addEventListener("click", () => abrirPopup(videos.nicolas));
   rombo16.addEventListener("click", () => abrirPopup(videos.Nicol));
-  rombo17.addEventListener("click", () => abrirPopup(videos.npc));
+  rombo17.addEventListener("click", () => abrirPopup(videos.Samuel));
   rombo18.addEventListener("click", () => abrirPopup(videos.Santiago));
   rombo19.addEventListener("click", () => abrirPopup(videos.Simon));
   rombo20.addEventListener("click", () => abrirPopup(videos.Sofia_Velandia));
