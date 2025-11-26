@@ -3,24 +3,24 @@ document.addEventListener("DOMContentLoaded", function () {
 
   // Ruta de los videos: si los tienes en una carpeta "videos/", pon "videos/Nombre.mp4"
   const videos = {
-    1: { archivo: "Dali_v.mp4", nombre: "｡.｡✧Dali Gonzales (Programador de videojuegos)" },
-    2: { archivo: "Daniela_v.mp4", nombre: "｡.｡✧Daniela Beltran (Artista 3D-entornos/Animadora)" },
-    3: { archivo: "Danna_v.mp4", nombre: "｡.｡✧Danna Rojas (Artista conceptual-escenarios/props)" },
-    4: { archivo: "Dustin_v.mp4", nombre: "｡.｡✧Dustyn Perez (Programador en e-commerce)" },
-    5: { archivo: "Videos/EdwardVideox2.mp4", nombre: "｡.｡✧Edward Garcia (Productor audiovisual y musical)" },
-    6: { archivo: "Emily_v.mp4", nombre: "｡.｡✧Emily Mora (Especialista en marketing audiovisual)" },
-    7: { archivo: "Isabella_v.mp4", nombre: "｡.｡✧Isabella Gallego (Artista 2d/FX)" },
-    8: { archivo: "Juandavid_v.mp4", nombre: "｡.｡✧David Fique (Productor audiovisual/Postproductor)" },
-    9: { archivo: "Karen_v.mp4", nombre: "｡.｡✧Karen Silva (Productora y diseñadora multimedia)" },
-    10: { archivo: "Maria_v.mp4", nombre: "｡.｡✧Maria Ocampo (Productora audiovisual)" },
-    11: { archivo: "Mariap_v.mp4", nombre: "｡.｡✧Maria Paula Lesmes (Productora Multimedia)" },
-    12: { archivo: "Moreno_v.mp4", nombre: "｡.｡✧Daniel Moreno (Posproductor/Animador 3D)" },
-    13: { archivo: "Videos/NicolVideox2.mp4", nombre: "｡.｡✧Nicol Bolaños (Artista digital/tradicional)" },
-    14: { archivo: "Nicolas_v.mp4", nombre: "｡.｡✧Nicolás Acevedo (Productor audiovisual)" },
-    15: { archivo: "Salamaca_v.mp4", nombre: "｡.｡✧Felipe Salamanca (Productor y director de cine)" },
-    16: { archivo: "santiago_v.mp4", nombre: "｡.｡✧Santiago Bolaños (Modelador 3D/Esp-render)" },
-    17: { archivo: "Sofia_v.mp4", nombre: "｡.｡✧Sofia Velandia (Desarrollo-videojuegos/Animadora)" },
-    18: { archivo: "Vera_v.mp4", nombre: "｡.｡✧Juan Vera (Fotografo/Desarrollo-videojuegos)" }
+    1: { archivo: "Videos/VideoDalix2.mp4", nombre: "｡.｡✧Dali Gonzales (Programador de videojuegos)✧｡.｡" },
+    2: { archivo: "Videos/VideoDanielax2.mp4", nombre: "｡.｡✧Daniela Beltran (Artista3D-entornos/Animadora)✧｡.｡" },
+    3: { archivo: "Videos/VideoDannax2.mp4", nombre: "｡.｡✧Danna Rojas (Artista concept-escenarios/props)✧｡.｡" },
+    4: { archivo: "Videos/VideoDustynx2.mp4", nombre: "｡.｡✧Dustyn Perez (Programador en e-commerce)✧｡.｡" },
+    5: { archivo: "Videos/EdwardVideox2.mp4", nombre: "｡.｡✧Edward Garcia (Productor audiovisual/musical)✧｡.｡" },
+    6: { archivo: "Videos/VideoEmilyx2.mp4", nombre: "｡.｡✧Emily Mora (Especialista marketing audiovisual)✧｡.｡" },
+    7: { archivo: "Videos/VideoIsabellax2.mp4", nombre: "｡.｡✧Isabella Gallego (Artista 2d/FX)✧｡.｡" },
+    8: { archivo: "Videos/VideoFiquex2.mp4", nombre: "｡.｡✧David Fique (Post/Productor audiovisual)✧｡.｡" },
+    9: { archivo: "Videos/VideoKarenx2.mp4", nombre: "｡.｡✧Karen Silva (Productora/diseñadora multimedia)✧｡.｡" },
+    10: { archivo: "Videos/VideoMariax2.mp4", nombre: "｡.｡✧Maria Ocampo (Productora audiovisual)✧｡.｡" },
+    11: { archivo: "Videos/VideoMariapx2.mp4", nombre: "｡.｡✧Maria Paula Lesmes (Productora Multimedia)✧｡.｡" },
+    12: { archivo: "Videos/VideoDanielx2.mp4", nombre: "｡.｡✧Daniel Moreno (Posproductor/Animador 3D)✧｡.｡" },
+    13: { archivo: "Videos/NicolVideox2.mp4", nombre: "｡.｡✧Nicol Bolaños (Artista digital/tradicional)✧｡.｡" },
+    14: { archivo: "Videos/VideoNicolasx2.mp4", nombre: "｡.｡✧Nicolás Acevedo (Productor audiovisual)✧｡.｡" },
+    15: { archivo: "Videos/VideoFelipex2.mp4", nombre: "｡.｡✧Felipe Salamanca (Productor/director de cine)✧｡.｡" },
+    16: { archivo: "Videos/VideoSantiagox2.mp4", nombre: "｡.｡✧Santiago Bolaños (Modelador 3D/Esp-render)✧｡.｡" },
+    17: { archivo: "Videos/VideoSofiax2.mp4", nombre: "｡.｡✧Sofia Velandia (Desarrollo-juegos/Animadora)✧｡.｡" },
+    18: { archivo: "Videos/VideoVerax2.mp4", nombre: "｡.｡✧Juan Vera (Fotografo/Desarrollo-juegos)✧｡.｡" }
   };
 
   const modal = document.getElementById("videoModal");
