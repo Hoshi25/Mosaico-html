@@ -72,7 +72,7 @@ body {
   flex-direction: column;
   align-items: flex-start;  /* ✔ Los mueve todos a la izquierda */
   padding-left: 40px;       /* ✔ Ajusta la distancia desde el borde */
-  gap: 40px;
+  gap: 55px;
 }
 
 
