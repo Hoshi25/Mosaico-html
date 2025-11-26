@@ -41,7 +41,7 @@ document.addEventListener("DOMContentLoaded", function() {
     Moreno: "videos/VideoDanielx2.mp4",
     Nicol: "videos/NicolVideox2.mp4",
     nicolas: "videos/VideoNicolasx2.mp4",
-    Samuel: "Videos/VideoSamuelx2c.mp4",
+    Samuel: "Videos/VideoSamuelx2.mp4",
     Salamanca: "videos/VideoFelipex2.mp4",
     Santiago: "videos/VideoSantiagox2.mp4",
     Simon: "videos/VideoSimónx2.mp4",
