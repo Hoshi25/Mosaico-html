@@ -25,7 +25,7 @@ document.addEventListener("DOMContentLoaded", () => {
     5:{ archivo:"Videos/EdwardVideox2.mp4", nombre:"｡.｡✧Edward Garcia (Productor audiovisual/musical)✧｡.｡"},
     6:{ archivo:"Videos/VideoEmilyx2.mp4", nombre:"｡.｡✧Emily Mora (Marketing audiovisual)✧｡.｡"},
     7:{ archivo:"Videos/VideoIsabellaxd.mp4", nombre:"｡.｡✧Isabella Gallego (Artista 2D / FX)✧｡.｡"},
-    8:{ archivo:"Videos/VideoFiquex2.mp4", nombre:"｡.｡✧David Fique (Post/Productor audiovisual)✧｡.｡"},
+    8:{ archivo:"Videos/VideoFiquexd.mp4", nombre:"｡.｡✧David Fique (Post/Productor audiovisual)✧｡.｡"},
     9:{ archivo:"Videos/VideoKarenx2.mp4", nombre:"｡.｡✧Karen Silva (Productora multimedia)✧｡.｡"},
     10:{ archivo:"Videos/VideoMariax2.mp4", nombre:"｡.｡✧Maria Ocampo (Productora audiovisual)✧｡.｡"},
     11:{ archivo:"Videos/VideoMariaPxd.mp4", nombre:"｡.｡✧Maria Paula Lesmes (Productora Multimedia)✧｡.｡"},
