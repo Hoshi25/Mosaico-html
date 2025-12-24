@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", () => {
     1:{ archivo:"Videos/VideoDalix2.mp4", nombre:"｡.｡✧Dali Gonzales (Programador de videojuegos)✧｡.｡"},
     2:{ archivo:"Videos/VideoDanielax2.mp4", nombre:"｡.｡✧Daniela Beltran (Artista 3D / Animadora)✧｡.｡"},
     3:{ archivo:"Videos/VideoDannax2.mp4", nombre:"｡.｡✧Danna Rojas (Artista concept-escenarios/props)✧｡.｡"},
-    4:{ archivo:"Videos/VideoDustynx2.mp4", nombre:"｡.｡✧Dustyn Perez (Programador e-commerce)✧｡.｡"},
+    4:{ archivo:"Videos/VideoDustynxd.mp4", nombre:"｡.｡✧Dustyn Perez (Programador e-commerce)✧｡.｡"},
     5:{ archivo:"Videos/EdwardVideox2.mp4", nombre:"｡.｡✧Edward Garcia (Productor audiovisual/musical)✧｡.｡"},
     6:{ archivo:"Videos/VideoEmilyx2.mp4", nombre:"｡.｡✧Emily Mora (Marketing audiovisual)✧｡.｡"},
     7:{ archivo:"Videos/VideoIsabellaxd.mp4", nombre:"｡.｡✧Isabella Gallego (Artista 2D / FX)✧｡.｡"},
