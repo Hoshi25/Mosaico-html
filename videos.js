@@ -30,11 +30,11 @@ document.addEventListener("DOMContentLoaded", () => {
     10:{ archivo:"Videos/VideoMariax2.mp4", nombre:"｡.｡✧Maria Ocampo (Productora audiovisual)✧｡.｡"},
     11:{ archivo:"Videos/VideoMariaPxd.mp4", nombre:"｡.｡✧Maria Paula Lesmes (Productora Multimedia)✧｡.｡"},
     12:{ archivo:"Videos/VideoDanielx2.mp4", nombre:"｡.｡✧Daniel Moreno (Post/Animador 3D)✧｡.｡"},
-    13:{ archivo:"Videos/VideoNicolxd.mp4", nombre:"｡.｡✧Nicol Bolaños (Artista digital / Animadora 3D)✧｡.｡"},
+    13:{ archivo:"Videos/VideoNicolxd.mp4", nombre:"｡.｡✧Nicol Bolaños (Artista/ animadora/ post-producción)✧｡.｡"},
     14:{ archivo:"Videos/VideoNicolasx2.mp4", nombre:"｡.｡✧Nicolás Acevedo (Productor audiovisual)✧｡.｡"},
     15:{ archivo:"Videos/VideoFelipex2.mp4", nombre:"｡.｡✧Felipe Salamanca (Director de cine)✧｡.｡"},
     16:{ archivo:"Videos/VideoSantiagox2.mp4", nombre:"｡.｡✧Santiago Bolaños (Modelador 3D)✧｡.｡"},
-    17:{ archivo:"Videos/VideoSofiax2.mp4", nombre:"｡.｡✧Sofia Velandia (Desarrollo de juegos)✧｡.｡"},
+    17:{ archivo:"Videos/VideoSofiaxd.mp4", nombre:"｡.｡✧Sofia Velandia (Desarrollo de videojuegos/ Animadora)✧｡.｡"},
     18:{ archivo:"Videos/VideoVerax2.mp4", nombre:"｡.｡✧Juan Vera (Fotografía / Juegos)✧｡.｡"}
   };
 
